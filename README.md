@@ -27,11 +27,9 @@ Conception d'une architecture prédictive robuste face à la variance clinique, 
 * Transformation logarithmique (`log1p`) de la cible pour stabiliser l'apprentissage sur les distributions asymétriques.
 
 ## 📊 Performances & Audit Clinique
-L'évaluation ne se limite pas à la RMSE, mais inclut un audit clinique traduisant l'erreur en points moteurs sur l'échelle MDS-UPDRS.
 
-* **RMSE (Root Mean Square Error) :** [Insère ton score ici]
-* **MAE (Mean Absolute Error) :** [Insère ton score ici] points moteurs.
-* **Fiabilité Clinique :** [Insère ton score ici] % des prédictions tombent dans la marge d'acceptabilité d'un neurologue (±5 points).
+* **RMSE (Root Mean Square Error) :** 11.9425 ( Sur le site de la competition).
+* **Fiabilité Clinique :** 84.9 % des prédictions tombent dans la marge d'acceptabilité d'un neurologue (±5 points).
 
 ## 📂 Structure du Dépôt
 ```text
