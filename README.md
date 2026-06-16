@@ -34,8 +34,8 @@ Conception d'une architecture prédictive robuste face à la variance clinique, 
 ## 📂 Structure du Dépôt
 ```text
 ├── data/                  # Données brutes (ignorées par Git)
-├── notebooks/
-│   └── 01_exploration_et_modelisation.ipynb  # Orchestrateur visuel & EDA
+├── 01_exploration_et_modelisation.ipynb 
+│  
 ├── src/                   # Package Python (Logique métier)
 │   ├── config.py          # Constantes et hyperparamètres
 │   ├── data_preprocessing.py
